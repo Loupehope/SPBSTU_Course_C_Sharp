@@ -1,0 +1,5 @@
+4
+FreeSoftware|Xcode|Apple
+SharewareSoftware|Tower|Fournove|13.01.2020|10
+CommercialSoftware|Xcode Pro|Apple|1300|10.01.2020|365
+FreeSoftware|Parser|Xzingo
