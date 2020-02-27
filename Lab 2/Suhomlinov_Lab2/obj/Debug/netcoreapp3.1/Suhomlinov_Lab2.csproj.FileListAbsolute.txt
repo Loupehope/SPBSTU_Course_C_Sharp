@@ -31,3 +31,14 @@
 /Users/vladsuhomlinov/Desktop/untitled folder/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.AssemblyInfo.cs
 /Users/vladsuhomlinov/Desktop/untitled folder/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.dll
 /Users/vladsuhomlinov/Desktop/untitled folder/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.pdb
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/bin/Debug/netcoreapp3.1/Suhomlinov_Lab2
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/bin/Debug/netcoreapp3.1/Suhomlinov_Lab2.deps.json
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/bin/Debug/netcoreapp3.1/Suhomlinov_Lab2.runtimeconfig.json
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/bin/Debug/netcoreapp3.1/Suhomlinov_Lab2.runtimeconfig.dev.json
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/bin/Debug/netcoreapp3.1/Suhomlinov_Lab2.dll
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/bin/Debug/netcoreapp3.1/Suhomlinov_Lab2.pdb
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.csprojAssemblyReference.cache
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.AssemblyInfoInputs.cache
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.AssemblyInfo.cs
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.dll
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/obj/Debug/netcoreapp3.1/Suhomlinov_Lab2.pdb

@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Globalization;
+using System.IO;
+using System.Xml.Serialization;
+using System.Diagnostics;
 
 namespace Suhomlinov_Lab2
 {
@@ -8,12 +11,20 @@ namespace Suhomlinov_Lab2
         /// <summary>
         /// Переменная для хранения числа ПО, которое будет храниться  
         /// </summary>
-        private int softCount;
+        public int softCount;
 
         /// <summary>
         /// Переменная для хранения объектов ПО
         /// </summary>
-        private AbstractSoftware[] softs;
+        public AbstractSoftware[] softs;
+
+        public SoftwareManager()
+        {
+            Trace.WriteLine("Call constructor SoftwareManager with softCount: " + 0);
+
+            this.softCount = 0;
+            this.softs = new AbstractSoftware[softCount];
+        }
 
         /// <summary>
         /// Конструктор класса
@@ -21,6 +32,7 @@ namespace Suhomlinov_Lab2
         /// <param name="softCount">число ПО, которое будет храниться</param>
         public SoftwareManager(int softCount)
         {
+            Trace.WriteLine("Call constructor SoftwareManager with softCount: " + softCount);
             this.softCount = softCount;
             this.softs = new AbstractSoftware[softCount];
         }
@@ -30,12 +42,16 @@ namespace Suhomlinov_Lab2
         /// </summary>
         public void printAllSoftInfoAndValidation()
         {
+            Trace.WriteLine("Call SoftwareManager method printAllSoftInfoAndValidation()");
+            Trace.Indent();
+            Trace.WriteLine("Start printing all information about software and validation");
+            Trace.Indent();
+
             foreach (AbstractSoftware soft in softs)
             {
                 if (soft is null)
                 {
-                    Console.Write("Incorrect value\n");
-                    Console.WriteLine();
+                    Console.Write("Can't print! Value is null");
                 }
                 else
                 {
@@ -51,6 +67,10 @@ namespace Suhomlinov_Lab2
                     Console.WriteLine();
                 }
             }
+
+            Trace.Unindent();
+            Trace.WriteLine("End printing all information about software and validation");
+            Trace.Unindent();
         }
 
         /// <summary>
@@ -60,6 +80,8 @@ namespace Suhomlinov_Lab2
         /// <param name="index">Индекс массива для вставки ПО</param>
         public void addSoft(string[] softData, int index)
         {
+            Trace.WriteLine("Call SoftwareManager method addSoft() for index " + index);
+            Trace.Indent();
             AbstractSoftware element = convertArrayInfoToSoftware(softData);
 
             if (element is null)
@@ -74,6 +96,38 @@ namespace Suhomlinov_Lab2
             {
                 Console.WriteLine("Wrong index " + index);
             }
+            Trace.Unindent();
+        }
+
+        /// <summary>
+        /// Функция для генерации XML-файла
+        /// </summary>
+        /// <param name="fileName">название файла для генерации XML</param>
+        public void serialize(string fileName)
+        {
+            Trace.WriteLine("Call SoftwareManager method serialize() with file name: " + fileName);
+
+            TextWriter writer = new StreamWriter(fileName, true);
+            XmlSerializer serializer = new XmlSerializer(typeof(SoftwareManager),
+                new Type[] { typeof(CommercialSoftware), typeof(FreeSoftware), typeof(SharewareSoftware) });
+            serializer.Serialize(writer, this);
+            writer.Close();
+        }
+
+        /// <summary>
+        /// Функция для генерации XML-файла для ОП
+        /// </summary>
+        /// <param name="fileName">название файла для генерации XML</param>
+        public void serializeSoft(string fileName)
+        {
+            Trace.WriteLine("Call SoftwareManager method serializeSoft() with file name: " + fileName);
+
+            TextWriter writer = new StreamWriter(fileName);
+            foreach (AbstractSoftware soft in softs)
+            {
+                soft.serialize(fileName);
+            }
+            writer.Close();
         }
 
         /// <summary>
@@ -83,6 +137,8 @@ namespace Suhomlinov_Lab2
         /// <returns>AbstractSoftware - если получилось проинициализорвать данные, иначе - null</returns>
         private AbstractSoftware convertArrayInfoToSoftware(string[] info)
         {
+            Trace.WriteLine("Call SoftwareManager method convertArrayInfoToSoftware()");
+            
             string softwareType = info[0].ToLower();
             switch (softwareType)
             {
@@ -97,7 +153,6 @@ namespace Suhomlinov_Lab2
                 default:
                     return null;
             }
-
         }
     }
 }

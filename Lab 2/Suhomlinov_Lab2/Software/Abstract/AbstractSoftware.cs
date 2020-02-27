@@ -40,7 +40,7 @@ namespace Suhomlinov_Lab2
         }
 
         /// <summary>
-        /// Функция вывода в консоль информации о платном ПО
+        /// Функция вывода в консоль информации о ПО
         /// </summary>
         public abstract void printInfo();
 
@@ -49,5 +49,11 @@ namespace Suhomlinov_Lab2
         /// </summary>
         /// <returns>true - можно пользоваться, false - нельзя пользоваться</returns>
         public abstract bool validate();
+
+        /// <summary>
+        /// Функция для генерации XML-файла
+        /// </summary>
+        /// <param name="fileName">название файла для генерации XML</param>
+        public abstract void serialize(string fileName);
     }
 }

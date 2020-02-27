@@ -1,4 +1,8 @@
 ﻿using System;
+using System.IO;
+using System.Xml.Serialization;
+using System.Diagnostics;
+
 namespace Suhomlinov_Lab2
 {
 
@@ -18,6 +22,15 @@ namespace Suhomlinov_Lab2
         public int freeUsagePeriod;
 
         /// <summary>
+        /// Базовый конструктор класса
+        /// </summary>
+        public SharewareSoftware() : base(String.Empty, String.Empty)
+        {
+            this.installationDate = DateTime.Today;
+            this.freeUsagePeriod = 0;
+        }
+
+        /// <summary>
         /// Конструктор класса
         /// </summary>
         /// <param name="name">Название ПО</param>
@@ -27,6 +40,14 @@ namespace Suhomlinov_Lab2
         public SharewareSoftware(string name, string manufacturer,
             DateTime installationDate, int freeUsagePeriod) : base(name, manufacturer)
         {
+            Trace.WriteLine("Call constructor SharewareSoftware");
+            Trace.Indent();
+            Trace.WriteLine("Name: " + name);
+            Trace.WriteLine("Manufacturer: " + manufacturer);
+            Trace.WriteLine("Installation date: " + installationDate.ToString());
+            Trace.WriteLine("Free usage period: " + freeUsagePeriod);
+            Trace.Unindent();
+
             this.installationDate = installationDate;
             this.freeUsagePeriod = freeUsagePeriod;
         }
@@ -36,6 +57,8 @@ namespace Suhomlinov_Lab2
         /// </summary>
         public override void printInfo()
         {
+            Trace.WriteLine("Call SharewareSoftware method printInfo()");
+
             Console.WriteLine(baseInfo + "\nInstallation date: " + installationDate.ToString("dd.MM.yyyy") + "\n" +
                 "Free period: " + freeUsagePeriod);
         }
@@ -46,7 +69,23 @@ namespace Suhomlinov_Lab2
         /// <returns>true - можно пользоваться, false - нельзя пользоваться</returns>
         public override bool validate()
         {
+            Trace.WriteLine("Call SharewareSoftware method validate()");
+
             return DateTime.Today.Subtract(installationDate).Days <= freeUsagePeriod;
+        }
+
+        /// <summary>
+        /// Функция для генерации XML-файла
+        /// </summary>
+        /// <param name="fileName">название файла для генерации XML</param>
+        public override void serialize(string fileName)
+        {
+            Trace.WriteLine("Call SharewareSoftware method serialize() with file name: " + fileName);
+
+            TextWriter writer = new StreamWriter(fileName, true);
+            XmlSerializer serializer = new XmlSerializer(typeof(SharewareSoftware));
+            serializer.Serialize(writer, this);
+            writer.Close();
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vladsuhomlinov/Desktop/untitled folder/Suhomlinov_Lab2/Suhomlinov_Lab2.csproj",
+      "projectUniqueName": "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/Suhomlinov_Lab2.csproj",
       "projectName": "Suhomlinov_Lab2",
-      "projectPath": "/Users/vladsuhomlinov/Desktop/untitled folder/Suhomlinov_Lab2/Suhomlinov_Lab2.csproj",
+      "projectPath": "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/Suhomlinov_Lab2.csproj",
       "packagesPath": "/Users/vladsuhomlinov/.nuget/packages/",
-      "outputPath": "/Users/vladsuhomlinov/Desktop/untitled folder/Suhomlinov_Lab2/obj/",
+      "outputPath": "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Lab 2/Suhomlinov_Lab2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/vladsuhomlinov/.config/NuGet/NuGet.Config"

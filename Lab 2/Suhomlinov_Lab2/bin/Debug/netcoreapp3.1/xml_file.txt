@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoftwareManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <softCount>4</softCount>
+  <softs>
+    <AbstractSoftware xsi:type="FreeSoftware">
+      <name>Xcode</name>
+      <manufacturer>Apple</manufacturer>
+    </AbstractSoftware>
+    <AbstractSoftware xsi:type="SharewareSoftware">
+      <name>Tower</name>
+      <manufacturer>Fournove</manufacturer>
+      <installationDate>2020-01-13T00:00:00</installationDate>
+      <freeUsagePeriod>10</freeUsagePeriod>
+    </AbstractSoftware>
+    <AbstractSoftware xsi:type="CommercialSoftware">
+      <name>Xcode Pro</name>
+      <manufacturer>Apple</manufacturer>
+      <cost>1300</cost>
+      <installationDate>2020-01-10T00:00:00</installationDate>
+      <usagePeriod>365</usagePeriod>
+    </AbstractSoftware>
+    <AbstractSoftware xsi:type="FreeSoftware">
+      <name>Parser</name>
+      <manufacturer>Xzingo</manufacturer>
+    </AbstractSoftware>
+  </softs>
+</SoftwareManager>
