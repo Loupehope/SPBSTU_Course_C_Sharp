@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vladsuhomlinov/Projects/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj": {}
+    "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj": {}
   },
   "projects": {
-    "/Users/vladsuhomlinov/Projects/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj": {
+    "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vladsuhomlinov/Projects/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj",
+        "projectUniqueName": "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj",
         "projectName": "Suhomlinov_Lab4",
-        "projectPath": "/Users/vladsuhomlinov/Projects/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj",
+        "projectPath": "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab4/Suhomlinov_Lab4/Suhomlinov_Lab4.csproj",
         "packagesPath": "/Users/vladsuhomlinov/.nuget/packages/",
-        "outputPath": "/Users/vladsuhomlinov/Projects/Suhomlinov_Lab4/Suhomlinov_Lab4/obj/",
+        "outputPath": "/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab4/Suhomlinov_Lab4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vladsuhomlinov/.config/NuGet/NuGet.Config"

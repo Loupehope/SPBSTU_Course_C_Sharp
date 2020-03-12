@@ -7,15 +7,9 @@ namespace Suhomlinov_Lab4
 {
     class Program
     {
-        // <summary>
-        /// Переменная для хранения названия файла c xml
-        /// </summary>
+        
         private static string readFile = "input.txt";
 
-        /// <summary>
-        /// Точка входа для приложения
-        /// </summary>
-        /// <param name="args"> Список аргументов командной строки</param>
         static void Main(string[] args)
         {
             StreamReader sr;
@@ -86,11 +80,6 @@ namespace Suhomlinov_Lab4
             }
         }
 
-        /// <summary>
-        /// Метод для создания экземпляра бд по строке
-        /// </summary>
-        /// <param name="name">Название вида бд</param>
-        /// <param name="config">Конфигурация для подключения к бд</param>
         static DatabaseInterface parseDatabaseName(string name, DBConfig config)
         {
             switch(name)
@@ -106,11 +95,6 @@ namespace Suhomlinov_Lab4
             }
         }
 
-        /// <summary>
-        /// Метод для вызова метода экземпляра бд по строке
-        /// </summary>
-        /// <param name="parseString">Строка с названием метода и его параметрами</param>
-        /// <param name="database">База данных</param>
         static void parseAndCompleteDatabaseMethods(string parseString, DBManager database)
         {
             string[] callParams = parseString.Split("|");
