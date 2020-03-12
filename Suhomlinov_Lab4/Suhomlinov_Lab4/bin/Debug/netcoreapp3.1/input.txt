@@ -1,0 +1,11 @@
+MySQL
+createDatabase|template
+deleteDatabase|template
+connectDatabase|template
+reconnectDatabase|template
+disconnectDatabase|template
+createTable|template
+reloadTable|template
+dropTable|template
+renameTable|template|template
+createView|template
