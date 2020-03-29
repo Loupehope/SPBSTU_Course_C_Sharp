@@ -1,0 +1,48 @@
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.deps.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.dev.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csprojAssemblyReference.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csproj.CoreCompileInputs.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfoInputs.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfo.cs
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.genruntimeconfig.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.deps.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.dev.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csprojAssemblyReference.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csproj.CoreCompileInputs.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfoInputs.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfo.cs
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5 2/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.genruntimeconfig.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.deps.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.dev.json
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csprojAssemblyReference.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csproj.CoreCompileInputs.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfoInputs.cache
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfo.cs
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/Projects/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.genruntimeconfig.cache
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.deps.json
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.json
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.runtimeconfig.dev.json
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/bin/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csprojAssemblyReference.cache
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.csproj.CoreCompileInputs.cache
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfoInputs.cache
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.AssemblyInfo.cs
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.dll
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.pdb
+/Users/vladsuhomlinov/SPBSTU_Course_C_Sharp/Suhomlinov_Lab5/obj/Debug/netcoreapp3.1/Suhomlinov_Lab5.genruntimeconfig.cache
