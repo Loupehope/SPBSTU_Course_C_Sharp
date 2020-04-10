@@ -1,0 +1,10 @@
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\bin\Debug\SuperCalculator.exe.config
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\bin\Debug\SuperCalculator.exe
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\bin\Debug\SuperCalculator.pdb
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.csprojAssemblyReference.cache
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.Calculator.resources
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.Properties.Resources.resources
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.csproj.GenerateResource.cache
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.exe
+C:\Users\Vlad Suhomlinov\Desktop\SuperCalculator\obj\Debug\SuperCalculator.pdb
