@@ -1,0 +1,11 @@
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\bin\Debug\RunButton.exe.config
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\bin\Debug\RunButton.exe
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\bin\Debug\RunButton.pdb
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.csprojAssemblyReference.cache
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.Properties.Resources.resources
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.csproj.GenerateResource.cache
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.csproj.CoreCompileInputs.cache
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.exe
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.pdb
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.RunningButton.resources
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\RunButton\obj\Debug\RunButton.Dialog.resources

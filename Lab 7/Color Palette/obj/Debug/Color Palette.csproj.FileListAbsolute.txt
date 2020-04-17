@@ -1,0 +1,10 @@
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\bin\Debug\Color Palette.exe.config
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\bin\Debug\Color Palette.exe
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\bin\Debug\Color Palette.pdb
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color_Palette.ColorPicker.resources
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color_Palette.Properties.Resources.resources
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color Palette.csproj.GenerateResource.cache
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color Palette.csproj.CoreCompileInputs.cache
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color Palette.exe
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color Palette.pdb
+C:\Users\Vlad Suhomlinov\Desktop\Lab 7\Color Palette\obj\Debug\Color Palette.csprojAssemblyReference.cache
