@@ -65,17 +65,18 @@ namespace Lab_8
                         MessageBoxIcon.Error);
                     return;
                 }
+
+                filePath = openFileDialog.FileName;
             }
         }
 
-        private void serializeXML(string xmlPath)
+        public void serializeXML(string xmlPath)
         {
-            filePath = xmlPath;
             XDocument doc;
 
             try
             {
-                doc = XDocument.Load(filePath);
+                doc = XDocument.Load(xmlPath);
             }
             catch
             {
@@ -179,7 +180,7 @@ namespace Lab_8
             }
         }
 
-        private void addNewDataToXml(string xmlPath, UniversityData value)
+        public void addNewDataToXml(string xmlPath, UniversityData value)
         {
             if (value == null || xmlPath == null)
                 throw new System.ArgumentNullException();
@@ -188,7 +189,7 @@ namespace Lab_8
 
             try
             {
-                doc = XDocument.Load(filePath);
+                doc = XDocument.Load(xmlPath);
             }
             catch
             {
@@ -210,7 +211,7 @@ namespace Lab_8
                       new XElement("finalCheck", value.finalCheck));
 
             doc.Element("subjects").Add(newElement);
-            doc.Save(filePath);
+            doc.Save(xmlPath);
         }
 
         private void deleteRowToolStripMenuItem_Click(object sender, EventArgs e)
@@ -291,7 +292,7 @@ namespace Lab_8
             }
         }
 
-        private void deleteRowFromXML(string xmlPath, UniversityData value)
+        public void deleteRowFromXML(string xmlPath, UniversityData value)
         {
             if (value == null || xmlPath == null)
                 throw new System.ArgumentNullException();
@@ -300,7 +301,7 @@ namespace Lab_8
 
             try
             {
-                doc = XDocument.Load(filePath);
+                doc = XDocument.Load(xmlPath);
             }
             catch
             {
@@ -325,7 +326,7 @@ namespace Lab_8
                 throw new System.NullReferenceException();
 
             element.Remove();
-            doc.Save(filePath);
+            doc.Save(xmlPath);
         }
 
         private void teacherToolStripMenuItem_Click(object sender, EventArgs e)
