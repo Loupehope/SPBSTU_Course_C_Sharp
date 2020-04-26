@@ -1,0 +1,14 @@
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\bin\Debug\Lab 8.exe.config
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\bin\Debug\Lab 8.exe
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\bin\Debug\Lab 8.pdb
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab 8.csprojAssemblyReference.cache
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab_8.Properties.Resources.resources
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab 8.csproj.GenerateResource.cache
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab 8.csproj.CoreCompileInputs.cache
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab 8.exe
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab 8.pdb
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab_8.NewRow.resources
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab_8.FilterForm.resources
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab_8.UniBaseForm.resources
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab_8.FinalWorkForm.resources
+C:\Users\Vlad Suhomlinov\source\repos\Lab 8\obj\Debug\Lab_8.IsCourseWorkForm.resources
