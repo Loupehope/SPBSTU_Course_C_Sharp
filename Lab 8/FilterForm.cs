@@ -12,13 +12,29 @@ namespace Lab_8
 {
     public partial class FilterForm : Form
     {
+        /// <summary>
+        /// Строка поиска
+        /// </summary>
         public string searchString = String.Empty;
+
+        /// <summary>
+        /// Кнопка поиска нажата
+        /// </summary>
         public bool isSearch = false;
+
+        /// <summary>
+        /// Конструктор
+        /// </summary>
         public FilterForm()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Обработчик кнопки сохранить
+        /// </summary>
+        /// <param name="sender">Отправитель события</param>
+        /// <param name="e">Событие</param>
         private void save_Click(object sender, EventArgs e)
         {
             searchString = searchBox.Text;
@@ -26,6 +42,11 @@ namespace Lab_8
             Close();
         }
 
+        /// <summary>
+        /// Обработчик отмены
+        /// </summary>
+        /// <param name="sender">Отправитель события</param>
+        /// <param name="e">Событие</param>
         private void cancel_Click(object sender, EventArgs e)
         {
             Close();

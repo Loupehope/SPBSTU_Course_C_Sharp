@@ -13,8 +13,19 @@ namespace Lab_8
 {
     public partial class UniBaseForm : Form
     {
+        /// <summary>
+        /// Путь xml файла для чтения и записи
+        /// </summary>
         private string filePath;
+
+        /// <summary>
+        /// Лист, отображающихся записей 
+        /// </summary>
         private List<UniversityData> dataBase = new List<UniversityData>();
+
+        /// <summary>
+        /// Конструктор
+        /// </summary>
         public UniBaseForm()
         {
             InitializeComponent();
@@ -25,6 +36,11 @@ namespace Lab_8
             dropSearch.Enabled = false;
         }
 
+        /// <summary>
+        /// Обработчик нажатий на кнопку загрузки файла
+        /// </summary>
+        /// <param name="sender">Посылатель событий</param>
+        /// <param name="e">Событие</param>
         private void loadXMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -70,6 +86,10 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Метод преобразования xml-файла в модели
+        /// </summary>
+        /// <param name="xmlPath">Путь xml-файла</param>
         public void serializeXML(string xmlPath)
         {
             XDocument doc;
@@ -138,6 +158,12 @@ namespace Lab_8
 
             addItemsToListView(dataBase);
         }
+
+        /// <summary>
+        /// Метод обработки нажатия на кнопку добавления новой записи
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void addRowToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (var form = new NewRow())
@@ -180,6 +206,11 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Метод добавления данных в xml-файл
+        /// </summary>
+        /// <param name="xmlPath">Путь xml-файла</param>
+        /// <param name="value">Значение</param>
         public void addNewDataToXml(string xmlPath, UniversityData value)
         {
             if (value == null || xmlPath == null)
@@ -214,6 +245,11 @@ namespace Lab_8
             doc.Save(xmlPath);
         }
 
+        /// <summary>
+        /// Обработчик удаления данных из xml-файла
+        /// </summary>
+        /// <param name="sender">Посылатель событий</param>
+        /// <param name="e">Событие</param>
         private void deleteRowToolStripMenuItem_Click(object sender, EventArgs e)
         {
             List<UniversityData> restoreData = new List<UniversityData>();
@@ -292,6 +328,11 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Метод для удаления данных из xml-файла
+        /// </summary>
+        /// <param name="xmlPath">Путь xml-файла</param>
+        /// <param name="value">Значение</param>
         public void deleteRowFromXML(string xmlPath, UniversityData value)
         {
             if (value == null || xmlPath == null)
@@ -329,6 +370,11 @@ namespace Lab_8
             doc.Save(xmlPath);
         }
 
+        /// <summary>
+        /// Обработчик поиска записей по преподавателю
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void teacherToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (var form = new FilterForm())
@@ -355,6 +401,11 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Обработчик поиска записей по группе
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void groupToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (var form = new FilterForm())
@@ -382,6 +433,11 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Обработчик поиска записей по наличию курсовой работы
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void finalWorkToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (var form = new IsCourseWorkForm())
@@ -408,6 +464,11 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Обработчик поиска записей по итоговому контролю
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void finalCheckToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (var form = new FinalWorkForm())
@@ -434,17 +495,30 @@ namespace Lab_8
             }
         }
 
+        /// <summary>
+        /// Обработчик сброса поиска
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void dropSearch_Click(object sender, EventArgs e)
         {
             addItemsToListView(dataBase);
             dropSearch.Enabled = false;
         }
 
+        /// <summary>
+        /// Обработчик загрузки формы
+        /// </summary>
+        /// <param name="sender">Посылатель события</param>
+        /// <param name="e">Событие</param>
         private void UniBaseForm_Load(object sender, EventArgs e)
         {
             ResizeListViewColumns();
         }
 
+        /// <summary>
+        /// Метод для изменения размера формы под таблицу
+        /// </summary>
         private void ResizeListViewColumns()
         {
             int width = 0;
@@ -462,6 +536,10 @@ namespace Lab_8
             Width = width + 20;
         }
 
+        /// <summary>
+        /// Метод для добавления записей в таблицу
+        /// </summary>
+        /// <param name="data">Лист данных</param>
         private void addItemsToListView(List<UniversityData> data)
         {
             listView1.Items.Clear();

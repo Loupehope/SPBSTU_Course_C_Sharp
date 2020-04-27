@@ -69,28 +69,28 @@
             this.dropSearch});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1884, 42);
+            this.menuStrip.Size = new System.Drawing.Size(1794, 40);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip";
             // 
             // loadXMLToolStripMenuItem
             // 
             this.loadXMLToolStripMenuItem.Name = "loadXMLToolStripMenuItem";
-            this.loadXMLToolStripMenuItem.Size = new System.Drawing.Size(196, 38);
+            this.loadXMLToolStripMenuItem.Size = new System.Drawing.Size(196, 36);
             this.loadXMLToolStripMenuItem.Text = "Загрузить XML";
             this.loadXMLToolStripMenuItem.Click += new System.EventHandler(this.loadXMLToolStripMenuItem_Click);
             // 
             // addRow
             // 
             this.addRow.Name = "addRow";
-            this.addRow.Size = new System.Drawing.Size(141, 38);
+            this.addRow.Size = new System.Drawing.Size(141, 36);
             this.addRow.Text = "Добавить";
             this.addRow.Click += new System.EventHandler(this.addRowToolStripMenuItem_Click);
             // 
             // deleteRow
             // 
             this.deleteRow.Name = "deleteRow";
-            this.deleteRow.Size = new System.Drawing.Size(123, 38);
+            this.deleteRow.Size = new System.Drawing.Size(123, 36);
             this.deleteRow.Text = "Удалить";
             this.deleteRow.Click += new System.EventHandler(this.deleteRowToolStripMenuItem_Click);
             // 
@@ -102,7 +102,7 @@
             this.finalWorkToolStripMenuItem,
             this.finalCheckToolStripMenuItem});
             this.findTool.Name = "findTool";
-            this.findTool.Size = new System.Drawing.Size(103, 38);
+            this.findTool.Size = new System.Drawing.Size(103, 36);
             this.findTool.Text = "Поиск";
             // 
             // teacherToolStripMenuItem
@@ -136,7 +136,7 @@
             // dropSearch
             // 
             this.dropSearch.Name = "dropSearch";
-            this.dropSearch.Size = new System.Drawing.Size(211, 38);
+            this.dropSearch.Size = new System.Drawing.Size(211, 36);
             this.dropSearch.Text = "Сбросить поиск";
             this.dropSearch.Click += new System.EventHandler(this.dropSearch_Click);
             // 
@@ -157,9 +157,9 @@
             this.listView1.GridLines = true;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 42);
+            this.listView1.Location = new System.Drawing.Point(0, 40);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1884, 886);
+            this.listView1.Size = new System.Drawing.Size(1794, 890);
             this.listView1.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
@@ -216,11 +216,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1884, 928);
+            this.ClientSize = new System.Drawing.Size(1794, 930);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
+            this.MinimumSize = new System.Drawing.Size(1820, 1001);
             this.Name = "UniBaseForm";
             this.Text = "UniBase";
             this.Load += new System.EventHandler(this.UniBaseForm_Load);
