@@ -17,7 +17,7 @@ namespace Lab_9
         /// <summary>
         /// Генератор случайных чисел
         /// </summary>
-        private static Random randomGenerator = new Random();
+        private static readonly Random randomGenerator = new Random();
 
         /// <summary>
         /// Переменная разрешающаю отрисовку точек
@@ -67,7 +67,7 @@ namespace Lab_9
         {
             while (shoudDraw)
             {
-                Point dPoint = new Point(randomGenerator.Next(pictureBox.Width), randomGenerator.Next(pictureBox.Height));
+                Point dPoint = new Point(getRandomNumber(pictureBox.Width), getRandomNumber(pictureBox.Height));
                 Point calc = new Point(pictureBox.Left + dPoint.X, pictureBox.Top + dPoint.Y);
                 Point circleCenter = new Point(pictureBox.Location.X + pictureBox.Width / 2, pictureBox.Location.Y + pictureBox.Height / 2);
 
@@ -92,7 +92,7 @@ namespace Lab_9
         /// <returns></returns>
         private Color getRandomColor()
         {
-            return Color.FromArgb(randomGenerator.Next(254), randomGenerator.Next(254), randomGenerator.Next(254));
+            return Color.FromArgb(getRandomNumber(254), getRandomNumber(254), getRandomNumber(254));
         }
 
         /// <summary>
@@ -106,6 +106,19 @@ namespace Lab_9
             Graphics g = pictureBox.CreateGraphics();
             g.DrawRectangle(new Pen(color, 1f), x, y, 1, 1);
             g.Dispose();
+        }
+
+        /// <summary>
+        /// Функция возвращающая случайное число
+        /// </summary>
+        /// <param name="max">Максимальное число</param>
+        /// <returns>Случайное число</returns>
+        private static int getRandomNumber(int max)
+        {
+            lock (randomGenerator)
+            {
+                return randomGenerator.Next(max);
+            }
         }
 
         /// <summary>
